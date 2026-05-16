@@ -16,3 +16,6 @@ def two_sum(num,target):
             right -= 1
 
 print(two_sum([2,7,11,15], 9))
+
+# time complexity == O(n)   n=len of num
+# space complexity === O(1)  No extra array or hashmap.
