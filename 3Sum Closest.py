@@ -28,4 +28,5 @@ def three_Sum_Closest(nums,target):
 
 print(three_Sum_Closest([-1,2,1,-4],1))
 
-       
+# time complexity = O(n^2)
+# space complexity = 0(1)
