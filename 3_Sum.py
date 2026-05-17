@@ -2,7 +2,7 @@ def three_sum(nums):
     nums.sort()
     result = []
 
-    for i in range(len(nums)-2):
+    for i in range(len(nums)):
         if i > 0 and nums[i] == nums[i-1]:
             continue
 
@@ -31,3 +31,7 @@ def three_sum(nums):
     return result
 
 print(three_sum([-1,0,1,2,-1,-4]))
+
+
+# Time complexity = O(N^2) 
+# Space complexity - O(1)
