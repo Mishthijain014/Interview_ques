@@ -19,7 +19,7 @@ def three_sum(nums):
 
                 while left < right and nums[left] == nums[left-1]:
                     continue
-                while left < right and nums[right] == nums[right-1]:
+                while left < right and nums[right] == nums[right+1]:
                     continue
 
             elif total < 0:
