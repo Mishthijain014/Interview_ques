@@ -39,6 +39,7 @@ def four_sum(nums, target):
 
 print(four_sum([1,0,-1,0,-2,2],0))
 
-
+# time complexity = O(N^3)
+# space complexity = O(1)
 
                 
