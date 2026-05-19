@@ -6,7 +6,7 @@ def Combination(k,n):
             result.append(path[:])
             return
         
-        for i in range(index,n-(k-len(path))+2):
+        for i in range(index,n+1):
             path.append(i)
             backtracking(i+1,path)
             path.pop()
@@ -15,3 +15,5 @@ def Combination(k,n):
     return result
 
 print(Combination(2,4))
+
+# time complexity = O(n/k)
