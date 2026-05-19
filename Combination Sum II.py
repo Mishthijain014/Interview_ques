@@ -22,3 +22,6 @@ def comb_sum(candidates,target):
     return result
 
 print(comb_sum([10,1,2,7,6,1,5],8))
+
+# time complexity = O(2n×k)
+# space complexity = O(n)
