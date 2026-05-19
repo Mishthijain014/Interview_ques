@@ -27,5 +27,8 @@ def permutations(nums):
     return result
 
 print(permutations([1,1,3]))
+
+# Time complexity = 0(n x n!)
+# Space complexity = O(n) + O(n) + O(n) = O(n)
     
 
