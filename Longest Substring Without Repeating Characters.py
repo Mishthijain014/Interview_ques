@@ -13,3 +13,6 @@ def longest_substring(s):
         max_length = max(max_length,right-left+1)
 
     return max_length
+
+#time complexity = O(N)
+#space complexity = O(N)
